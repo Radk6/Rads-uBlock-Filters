@@ -1,7 +1,8 @@
 ! Title: Google Search Cleaner
 ! Version: 1.0.0
 ! Expires: 1 day
-! Description: A set of filters which hides fake websites in Google search results
+! Description: A set of filters which hides fake websites in Google search results. Based on the LetsBlockIt search result filter.
+! Homepage: https://github.com/Radplay/GoogleSearchCleaner
 
 ! Fake ReVanced websites:
 www.google.*##.g:has(a[href*="revanced.net"])
