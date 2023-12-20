@@ -4,6 +4,32 @@
 ! Description: A set of filters which hides fake websites in Google search results. Based on the LetsBlockIt search result filter.
 ! Homepage: https://github.com/Radplay/GoogleSearchCleaner
 
+! Fake Magisk websites:
+www.google.*##.g:has(a[href*="magiskmanager.com"])
+www.google.*##a[href*="magiskmanager.com"]:upward(1)
+www.google.*##.g:has(a[href*="magisk.me"])
+www.google.*##a[href*="magisk.me"]:upward(1)
+www.google.*##.g:has(a[href*="magiskapp.com"])
+www.google.*##a[href*="magiskapp.com"]:upward(1)
+www.google.*##.g:has(a[href*="magiskroot.com"])
+www.google.*##a[href*="magiskroot.com"]:upward(1)
+www.google.*##.g:has(a[href*="magiskroot.net"])
+www.google.*##a[href*="magiskroot.net"]:upward(1)
+www.google.*##.g:has(a[href*="magisks.com"])
+www.google.*##a[href*="magisks.com"]:upward(1)
+www.google.*##.g:has(a[href*="themagisk.com"])
+www.google.*##a[href*="themagisk.com"]:upward(1)
+www.google.*##.g:has(a[href*="magiskmodule.com"])
+www.google.*##a[href*="magiskmodule.com"]:upward(1)
+www.google.*##.g:has(a[href*="magiskmanagerroot.com"])
+www.google.*##a[href*="magiskmanagerroot.com"]:upward(1)
+www.google.*##.g:has(a[href*="magisk.download"])
+www.google.*##a[href*="magisk.download"]:upward(1)
+www.google.*##.g:has(a[href*="magiskmanager.com"])
+www.google.*##a[href*="magiskmanager.com"]:upward(1)
+www.google.*##.g:has(a[href*="magisk.info"])
+www.google.*##a[href*="magisk.info"]:upward(1)
+
 ! Fake ReVanced websites:
 www.google.*##.g:has(a[href*="revanced.net"])
 www.google.*##a[href*="revanced.net"]:upward(1)
@@ -55,3 +81,7 @@ www.google.*##.g:has(a[href*="vancedmanager.com"])
 www.google.*##a[href*="vancedmanager.com"]:upward(1)
 www.google.*##.g:has(a[href*="vancedmanager.org"])
 www.google.*##a[href*="vancedmanager.org"]:upward(1)
+
+! Fake Vencord websites
+www.google.*##.g:has(a[href*="vencord.app"])
+www.google.*##a[href*="vencord.app"]:upward(1)
