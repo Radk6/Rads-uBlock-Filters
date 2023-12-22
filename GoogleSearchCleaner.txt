@@ -85,3 +85,7 @@ www.google.*##a[href*="vancedmanager.org"]:upward(1)
 ! Fake Vencord websites
 www.google.*##.g:has(a[href*="vencord.app"])
 www.google.*##a[href*="vencord.app"]:upward(1)
+
+! Userbenchmark
+www.google.*##.g:has(a[href*="userbenchmark.com"])
+www.google.*##a[href*="userbenchmark.com"]:upward(1)
