@@ -4,6 +4,12 @@
 ! Description: A set of filters which hides fake websites in Google search results. Based on the LetsBlockIt search result filter.
 ! Homepage: https://github.com/Radplay/GoogleSearchCleaner
 
+! Minecraft launchers (malware/untrustworthy)
+www.google.*##.g:has(a[href*="polymc.org"])
+www.google.*##a[href*="polymc.org"]:upward(1)
+www.google.*##.g:has(a[href*="tlauncher.org"])
+www.google.*##a[href*="tlauncher.org"]:upward(1)
+
 ! Fake Magisk websites:
 www.google.*##.g:has(a[href*="magiskmanager.com"])
 www.google.*##a[href*="magiskmanager.com"]:upward(1)
