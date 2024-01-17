@@ -75,6 +75,10 @@ www.google.*##.g:has(a[href*="magisk.info"])
 www.google.*##a[href*="magisk.info"]:upward(1)
 
 ! Fake Vanced/ReVanced websites:
+www.google.*##.g:has(a[href*="downloadrevanced.com"])
+www.google.*##a[href*="downloadrevanced.com"]:upward(1)
+www.google.*##.g:has(a[href*="revancedapk.co.in"])
+www.google.*##a[href*="revancedapk.co.in"]:upward(1)
 www.google.*##.g:has(a[href*="revanced.net"])
 www.google.*##a[href*="revanced.net"]:upward(1)
 www.google.*##.g:has(a[href*="revanced.io"])
