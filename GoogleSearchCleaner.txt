@@ -11,6 +11,8 @@ www.google.*##.g:has(a[href*="tlauncher.org"])
 www.google.*##a[href*="tlauncher.org"]:upward(1)
 
 ! Fake Instander websites
+www.google.*##.g:has(a[href*="instandapk.com"])
+www.google.*##a[href*="instandapk.com"]:upward(1)
 www.google.*##.g:has(a[href*="instander.app"])
 www.google.*##a[href*="instander.app"]:upward(1)
 www.google.*##.g:has(a[href*="instander.com"])
