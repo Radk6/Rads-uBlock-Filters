@@ -1,5 +1,19 @@
 ! Title: 🇬 Google Search Cleaner
 ! Version: 2.0.0-a1
 ! Expires: 1 day
-! Description: A set of filters which hides fake websites in Google search results. Based on the LetsBlockIt search result filter.
+! Description: A set of filters which hides fake/malicious/untrustworthy websites in Google search results. Based on the LetsBlockIt search result filter.
 ! Homepage: https://github.com/Radplay/GoogleSearchCleaner
+
+! Minecraft Launchers
+www.google.*##.g:has(a[href*="minecraft.byzyczu.pl"])
+www.google.*##a[href*="minecraft.byzyczu.pl"]:upward(1)
+www.google.*##.g:has(a[href*="polymc.org"])
+www.google.*##a[href*="polymc.org"]:upward(1)
+www.google.*##.g:has(a[href*="tlauncher.co.com"])
+www.google.*##a[href*="tlauncher.co.com"]:upward(1)
+www.google.*##.g:has(a[href*="tlauncher.org"])
+www.google.*##a[href*="tlauncher.org"]:upward(1)
+
+! Userbenchmark
+www.google.*##.g:has(a[href*="userbenchmark.com"])
+www.google.*##a[href*="userbenchmark.com"]:upward(1)
