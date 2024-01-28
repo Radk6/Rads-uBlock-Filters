@@ -83,7 +83,7 @@ www.google.*##a[href*="youtuberevanced.net"]:upward(1)
 www.google.*##.g:has(a[href*="ytrevanced.app"])
 www.google.*##a[href*="ytrevanced.app"]:upward(1)
 
-! Minecraft Launchers
+! Malicious/untrustworthy Minecraft Launchers
 www.google.*##.g:has(a[href*="minecraft.zyczu.pl"])
 www.google.*##a[href*="minecraft.zyczu.pl"]:upward(1)
 www.google.*##.g:has(a[href*="polymc.org"])
