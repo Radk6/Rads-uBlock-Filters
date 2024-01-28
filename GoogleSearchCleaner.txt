@@ -5,8 +5,8 @@
 ! Homepage: https://github.com/Radplay/GoogleSearchCleaner
 
 ! Minecraft Launchers
-www.google.*##.g:has(a[href*="minecraft.byzyczu.pl"])
-www.google.*##a[href*="minecraft.byzyczu.pl"]:upward(1)
+www.google.*##.g:has(a[href*="minecraft.zyczu.pl"])
+www.google.*##a[href*="minecraft.zyczu.pl"]:upward(1)
 www.google.*##.g:has(a[href*="polymc.org"])
 www.google.*##a[href*="polymc.org"]:upward(1)
 www.google.*##.g:has(a[href*="tlauncher.co.com"])
