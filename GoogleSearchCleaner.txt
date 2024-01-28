@@ -4,6 +4,43 @@
 ! Description: A set of filters which hides fake/malicious/untrustworthy websites in Google search results. Based on the LetsBlockIt search result filter.
 ! Homepage: https://github.com/Radplay/GoogleSearchCleaner
 
+! Fake Instander Websites
+www.google.*##.g:has(a[href*="gramapk.com"])
+www.google.*##a[href*="gramapk.com"]:upward(1)
+www.google.*##.g:has(a[href*="instagrampro.cc"])
+www.google.*##a[href*="instagrampro.cc"]:upward(1)
+www.google.*##.g:has(a[href*="instandapk.com"])
+www.google.*##a[href*="instandapk.com"]:upward(1)
+www.google.*##.g:has(a[href*="instander.app"])
+www.google.*##a[href*="instander.app"]:upward(1)
+www.google.*##.g:has(a[href*="instander.cam"])
+www.google.*##a[href*="instander.cam"]:upward(1)
+www.google.*##.g:has(a[href*="instander.com"])
+www.google.*##a[href*="instander.com"]:upward(1)
+www.google.*##.g:has(a[href*="instander.dev"])
+www.google.*##a[href*="instander.dev"]:upward(1)
+www.google.*##.g:has(a[href*="instander.download"])
+www.google.*##a[href*="instander.download"]:upward(1)
+www.google.*##.g:has(a[href*="instander.me"])
+www.google.*##a[href*="instander.me"]:upward(1)
+www.google.*##.g:has(a[href*="instander.net"])
+www.google.*##a[href*="instander.net"]:upward(1)
+www.google.*##.g:has(a[href*="instander.vip"])
+www.google.*##a[href*="instander.vip"]:upward(1)
+www.google.*##.g:has(a[href*="instanderapkofficial.com"])
+www.google.*##a[href*="instanderapkofficial.com"]:upward(1)
+www.google.*##.g:has(a[href*="instanderapp.pro"])
+www.google.*##a[href*="instanderapp.pro"]:upward(1)
+www.google.*##.g:has(a[href*="instanderapps.com"])
+www.google.*##a[href*="instanderapps.com"]:upward(1)
+www.google.*##.g:has(a[href*="redwhatsapp.com"])
+www.google.*##a[href*="redwhatsapp.com"]:upward(1)
+www.google.*##.g:has(a[href*="theinstaapps.com"])
+www.google.*##a[href*="theinstaapps.com"]:upward(1)
+www.google.*##.g:has(a[href*="theinstanderapk.com"])
+www.google.*##a[href*="theinstanderapk.com"]:upward(1)
+
+
 ! Fake ReVanced Websites
 www.google.*##.g:has(a[href*="revanced.info"])
 www.google.*##a[href*="revanced.info"]:upward(1)
