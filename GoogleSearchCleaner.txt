@@ -1,8 +1,8 @@
 ! Title: 🇬 Google Search Cleaner
-! Version: 2.0.0-a1
+! Version: 2.0.0
 ! Expires: 1 day
 ! Description: A set of filters which hides fake/malicious/untrustworthy websites in Google search results. Based on the LetsBlockIt search result filter.
-! Homepage: https://github.com/Radplay/GoogleSearchCleaner
+! Homepage: https://github.com/Radk6/Rads-uBlock-Filters
 
 ! Fake Instander websites
 www.google.*##.g:has(a[href*="gramapk.com"])
