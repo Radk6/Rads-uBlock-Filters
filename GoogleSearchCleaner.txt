@@ -4,7 +4,7 @@
 ! Description: A set of filters which hides fake/malicious/untrustworthy websites in Google search results. Based on the LetsBlockIt search result filter.
 ! Homepage: https://github.com/Radplay/GoogleSearchCleaner
 
-! Fake Instander Websites
+! Fake Instander websites
 www.google.*##.g:has(a[href*="gramapk.com"])
 www.google.*##a[href*="gramapk.com"]:upward(1)
 www.google.*##.g:has(a[href*="instagrampro.cc"])
@@ -42,8 +42,25 @@ www.google.*##a[href*="theinstaapps.com"]:upward(1)
 www.google.*##.g:has(a[href*="theinstanderapk.com"])
 www.google.*##a[href*="theinstanderapk.com"]:upward(1)
 
+! Fake Magisk websites
+www.google.*##.g:has(a[href*="magisk.me"])
+www.google.*##a[href*="magisk.me"]:upward(1)
+www.google.*##.g:has(a[href*="magiskapp.com"])
+www.google.*##a[href*="magiskapp.com"]:upward(1)
+www.google.*##.g:has(a[href*="magiskmanager.com"])
+www.google.*##a[href*="magiskmanager.com"]:upward(1)
+www.google.*##.g:has(a[href*="magiskmanagerroot.com"])
+www.google.*##a[href*="magiskmanagerroot.com"]:upward(1)
+www.google.*##.g:has(a[href*="magiskmodule.com"])
+www.google.*##a[href*="magiskmodule.com"]:upward(1)
+www.google.*##.g:has(a[href*="magisksu.com"])
+www.google.*##a[href*="magisksu.com"]:upward(1)
+www.google.*##.g:has(a[href*="magiskzip.com"])
+www.google.*##a[href*="magiskzip.com"]:upward(1)
+www.google.*##.g:has(a[href*="themagisk.com"])
+www.google.*##a[href*="themagisk.com"]:upward(1)
 
-! Fake ReVanced Websites
+! Fake ReVanced websites
 www.google.*##.g:has(a[href*="revanced.info"])
 www.google.*##a[href*="revanced.info"]:upward(1)
 www.google.*##.g:has(a[href*="revanced.net"])
