@@ -171,8 +171,3 @@ www.google.*##.g:has(a[href*="tlauncher.co.com"])
 www.google.*##a[href*="tlauncher.co.com"]:upward(1)
 www.google.*##.g:has(a[href*="tlauncher.org"])
 www.google.*##a[href*="tlauncher.org"]:upward(1)
-
-! Userbenchmark
-||userbenchmark.com
-www.google.*##.g:has(a[href*="userbenchmark.com"])
-www.google.*##a[href*="userbenchmark.com"]:upward(1)
