@@ -4,6 +4,9 @@
 ! Description: Cosmetic filters which remove annoying/useless features of websites.
 ! Homepage: https://github.com/Radk6/Rads-uBlock-Filters
 
+! APKMirror
+www.apkmirror.com##div.listWidget:nth-of-type(1)
+
 ! CurseForge
 www.curseforge.com##.btn-header-link-button
 
