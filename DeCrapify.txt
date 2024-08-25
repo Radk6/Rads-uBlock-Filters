@@ -9,6 +9,7 @@ www.olx.pl##.css-1l8d9zm
 poczta.onet.pl##.go1300283429
 
 ! Removes Premium subscription references
+mega.nz##.upgrade-to-pro-dialog.dialog-template-message.mega-dialog
 modrinth.com##.color-accent-contrast.btn-transparent.btn-purple.btn
 modrinth.com##.bg-bg-raised.rounded-2xl.justify-center.w-full.flex.mb-3.relative.ad-parent
 www.onet.pl##.Menu_premium__ywOlo.Menu_navMenuListItem__epMSL > .Menu_navMenuLink__42wao
