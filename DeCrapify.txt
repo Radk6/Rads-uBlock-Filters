@@ -1,0 +1,10 @@
+! Title: 🗑️ DeCrapify
+! Version: 1.0.0
+! Expires: 1 day
+! Description: Removes annoyances from various websites
+! Homepage: https://github.com/Radk6/Rads-uBlock-Filters
+
+! Removes all traces of UserBenchmark
+||userbenchmark.com
+www.google.*##.g:has(a[href*="userbenchmark.com"])
+www.google.*##a[href*="userbenchmark.com"]:upward(1)
