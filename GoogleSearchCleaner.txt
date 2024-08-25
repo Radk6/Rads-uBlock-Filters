@@ -4,6 +4,18 @@
 ! Description: A set of filters which hides fake/malicious/untrustworthy websites in Google search results. Based on the LetsBlockIt search result filter.
 ! Homepage: https://github.com/Radk6/Rads-uBlock-Filters
 
+! Fake Bloxstrap websites
+www.google.*##.g:has(a[href*="bloxstrap.com"])
+www.google.*##a[href*="bloxstrap.com"]:upward(1)
+www.google.*##.g:has(a[href*="bloxstrap.dev"])
+www.google.*##a[href*="bloxstrap.dev"]:upward(1)
+www.google.*##.g:has(a[href*="bloxstrap.io"])
+www.google.*##a[href*="bloxstrap.io"]:upward(1)
+www.google.*##.g:has(a[href*="bloxstrap.org"])
+www.google.*##a[href*="bloxstrap.org"]:upward(1)
+www.google.*##.g:has(a[href*="bloxstrap.pro"])
+www.google.*##a[href*="bloxstrap.pro"]:upward(1)
+
 ! Fake Instander websites
 www.google.*##.g:has(a[href*="gramapk.com"])
 www.google.*##a[href*="gramapk.com"]:upward(1)
