@@ -4,6 +4,19 @@
 ! Description: Removes annoyances from various websites
 ! Homepage: https://github.com/Radk6/Rads-uBlock-Filters
 
+! Removes AI references
+www.olx.pl##.css-1l8d9zm
+poczta.onet.pl##.go1300283429
+
+! Removes Premium subscription references
+modrinth.com##.color-accent-contrast.btn-transparent.btn-purple.btn
+modrinth.com##.bg-bg-raised.rounded-2xl.justify-center.w-full.flex.mb-3.relative.ad-parent
+www.onet.pl##.Menu_premium__ywOlo.Menu_navMenuListItem__epMSL > .Menu_navMenuLink__42wao
+www.onet.pl##.MenuIcon_menuItemBigMargin__1RXS5.MenuIcon_menuItemPlainCollapsed___kByt.MenuIcon_menuItemPlain__e2Bh0.MenuIcon_menuItem__Ebsmk
+www.onet.pl##.ServiceMenu_editorModalPlaceholder__0SNWz
+poczta.onet.pl##.go4072588882.go3422613595.cta
+poczta.onet.pl##.go3226047559
+
 ! Removes all traces of UserBenchmark
 ||userbenchmark.com
 www.google.*##.g:has(a[href*="userbenchmark.com"])
