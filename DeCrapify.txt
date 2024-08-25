@@ -1,0 +1,11 @@
+! Title: 🗑️ DeCrapify
+! Version: 1.0.0
+! Expires: 1 day
+! Description: Cosmetic filters which remove annoying/useless features of websites.
+! Homepage: https://github.com/Radk6/Rads-uBlock-Filters
+
+! Onet Poczta
+! Remove Premium/AI/Ads
+poczta.onet.pl##.go4072588882.go3422613595.cta
+poczta.onet.pl##.go3226047559
+poczta.onet.pl##.go1300283429
