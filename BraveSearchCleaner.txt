@@ -1,0 +1,22 @@
+! Title: 🦁 Brave Search Cleaner
+! Version: 1.0.0
+! Expires: 1 day
+! Description: A set of filters which hides fake/malicious/untrustworthy websites in Brave search results. Based on the LetsBlockIt (R.I.P) search result filter.
+! Homepage: https://github.com/Radk6/Rads-uBlock-Filters
+
+! Fake Bloxstrap websites
+search.brave.com###results a[href*="bloxstrap.com"]:upward(.snippet)
+search.brave.com###img-results a[href*="bloxstrap.com"]:upward([id^="img"])
+search.brave.com###results a[href*="bloxstrap.com"]:upward(.card)
+search.brave.com###results a[href*="bloxstrap.dev"]:upward(.snippet)
+search.brave.com###img-results a[href*="bloxstrap.dev"]:upward([id^="img"])
+search.brave.com###results a[href*="bloxstrap.dev"]:upward(.card)
+search.brave.com###results a[href*="bloxstrap.io"]:upward(.snippet)
+search.brave.com###img-results a[href*="bloxstrap.io"]:upward([id^="img"])
+search.brave.com###results a[href*="bloxstrap.io"]:upward(.card)
+search.brave.com###results a[href*="bloxstrap.org"]:upward(.snippet)
+search.brave.com###img-results a[href*="bloxstrap.org"]:upward([id^="img"])
+search.brave.com###results a[href*="bloxstrap.org"]:upward(.card)
+search.brave.com###results a[href*="bloxstrap.pro"]:upward(.snippet)
+search.brave.com###img-results a[href*="bloxstrap.pro"]:upward([id^="img"])
+search.brave.com###results a[href*="bloxstrap.pro"]:upward(.card)
