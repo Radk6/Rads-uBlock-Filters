@@ -8,15 +8,6 @@
 ! Remove Premium
 www.apkmirror.com##[href="/premium/"]
 
-! Brave:
-! Remove upselling
-search.brave.com##.svelte-1ifkynz.download-cta
-search.brave.com##.svelte-y8yzcx.download-cta
-search.brave.com##.svelte-p1xqfc.sidebar
-! Remove AI
-search.brave.com##.svelte-1xz7e78.noscript-hide.subutton-wrapper
-search.brave.com##.svelte-7tdohb.llm.t-secondary.desktop-large-regular.suggestion
-
 ! Modrith:
 ! Remove Premium
 modrinth.com##.bg-bg-raised.rounded-2xl.justify-center.w-full.flex.mb-3.relative.ad-parent
