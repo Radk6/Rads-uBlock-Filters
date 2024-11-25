@@ -8,6 +8,11 @@
 ! Remove Premium
 www.apkmirror.com##[href="/premium/"]
 
+!CurseForge:
+! Remove Premium
+www.curseforge.com##.link-btn-icon.btn-secondary.link-btn
+www.curseforge.com##.premium-button.btn-lined
+
 ! Modrith:
 ! Remove Premium
 modrinth.com##.bg-bg-raised.rounded-2xl.justify-center.w-full.flex.mb-3.relative.ad-parent
