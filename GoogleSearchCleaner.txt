@@ -15,6 +15,10 @@ www.google.*##.g:has(a[href*="bloxstrap.org"])
 www.google.*##a[href*="bloxstrap.org"]:upward(1)
 www.google.*##.g:has(a[href*="bloxstrap.pro"])
 www.google.*##a[href*="bloxstrap.pro"]:upward(1)
+www.google.*##.g:has(a[href*="bloxstrapai.com"])
+www.google.*##a[href*="bloxstrapai.com"]:upward(1)
+www.google.*##.g:has(a[href*="bloxstraps.net"])
+www.google.*##a[href*="bloxstraps.net"]:upward(1)
 
 ! Fake Instander websites
 www.google.*##.g:has(a[href*="gramapk.com"])
