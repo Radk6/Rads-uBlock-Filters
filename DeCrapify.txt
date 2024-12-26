@@ -13,8 +13,12 @@ www.apkmirror.com##[href="/premium/"]
 www.curseforge.com##.link-btn-icon.btn-secondary.link-btn
 www.curseforge.com###contextMenu > li:nth-of-type(2) > span
 www.curseforge.com##.premium-button.btn-lined
+! Remove CF Launcher download
+www.curseforge.com##.link-btn-icon.btn-primary.link-btn
 
 ! Modrith:
 ! Remove Premium
 modrinth.com##.bg-bg-raised.rounded-2xl.justify-center.w-full.flex.mb-3.relative.ad-parent
 modrinth.com##.color-accent-contrast.btn-transparent.btn-purple.btn
+! Remove Modrinth App download
+modrinth.com##div.btn-wrapper > [href="/app"]
