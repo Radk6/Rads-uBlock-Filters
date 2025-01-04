@@ -22,3 +22,7 @@ modrinth.com##.bg-bg-raised.rounded-2xl.justify-center.w-full.flex.mb-3.relative
 modrinth.com##.color-accent-contrast.btn-transparent.btn-purple.btn
 ! Remove Modrinth App download
 modrinth.com##div.btn-wrapper > [href="/app"]
+
+! OptiFine
+! Nuke download links, mirror is ad-free
+optifine.net##[href^="http://adfoc.us/serve/sitelinks/"]
