@@ -23,6 +23,15 @@ modrinth.com##.color-accent-contrast.btn-transparent.btn-purple.btn
 ! Remove Modrinth App download
 modrinth.com##div.btn-wrapper > [href="/app"]
 
+! Onet
+! Just... no.
+www.onet.pl##a.MenuIcon_menuItemPlain__e2Bh0.MenuIcon_menuItem__Ebsmk
+www.onet.pl##.ServiceMenu_editorModalPlaceholder__0SNWz
+www.onet.pl##.Shortcuts_iconFromConfig__ORPrR.Shortcuts_shortcutsItem__j_o8D
+www.onet.pl##.Shortcuts_shortcutsOffer__eSObD.Shortcuts_shortcutsItem__j_o8D
+www.onet.pl##.OChatStartConversation_containerDesktop__ep1If.OChatStartConversation_container__WmGyh
+www.onet.pl##.Menu_premium__ywOlo.Menu_navMenuListItem__epMSL
+
 ! OptiFine
 ! Nuke download links, mirror is ad-free
 optifine.net##[href^="http://adfoc.us/serve/sitelinks/"]
