@@ -31,6 +31,17 @@ www.onet.pl##.Shortcuts_iconFromConfig__ORPrR.Shortcuts_shortcutsItem__j_o8D
 www.onet.pl##.Shortcuts_shortcutsOffer__eSObD.Shortcuts_shortcutsItem__j_o8D
 www.onet.pl##.OChatStartConversation_containerDesktop__ep1If.OChatStartConversation_container__WmGyh
 www.onet.pl##.Menu_premium__ywOlo.Menu_navMenuListItem__epMSL
+www.onet.pl##.SuperWidget_weatherAdSlot__VOgSZ
+
+! Onet Poczta
+! Yeet ads
+poczta.onet.pl##.go3820247918
+poczta.onet.pl##.go3815658742
+li.go2873651641:nth-of-type(7)
+! Yeet upselling
+poczta.onet.pl##.go3513926800.go396046327.cta
+poczta.onet.pl##.go1107108771.self-promo
+poczta.onet.pl##li.go2873651641:nth-of-type(5)
 
 ! OptiFine
 ! Nuke download links, mirror is ad-free
