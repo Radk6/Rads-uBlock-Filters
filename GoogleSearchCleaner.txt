@@ -187,6 +187,8 @@ www.google.*##.g:has(a[href*="ytrevanced.app"])
 www.google.*##a[href*="ytrevanced.app"]:upward(1)
 
 ! Fake Vanced websites
+www.google.*##.g:has(a[href*="vanced.to"])
+www.google.*##a[href*="vanced.to"]:upward(1)
 www.google.*##.g:has(a[href*="vanced.tools"])
 www.google.*##a[href*="vanced.tools"]:upward(1)
 www.google.*##.g:has(a[href*="vancedapp.io"])
