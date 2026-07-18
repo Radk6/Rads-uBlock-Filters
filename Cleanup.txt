@@ -25,3 +25,6 @@ www.youtube.com##:is(ytd-rich-item-renderer,yt-lockup-view-model):has(.ytBadgeSh
 www.youtube.com###header > .ytd-rich-grid-renderer.style-scope
 www.youtube.com###header > .ytd-item-section-renderer.style-scope
 www.youtube.com##.ytd-app.style-scope.with-chipbar
+! Remove sponsor and thanks buttons
+www.youtube.com##yt-button-view-model.ytd-menu-renderer:nth-of-type(2)
+www.youtube.com###sponsor-button
