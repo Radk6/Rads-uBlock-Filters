@@ -23,7 +23,6 @@ www.reddit.com###left-sidebar-container > faceplate-tracker
 www.youtube.com##:is(ytd-rich-item-renderer,yt-lockup-view-model):has(.ytBadgeShapeMembership,[aria-label="Members only"],[d^="M6 .5a5.5 5.5"])
 ! Remove the chipbar (homepage + related videos)
 www.youtube.com###header > .ytd-rich-grid-renderer.style-scope
-www.youtube.com###header > .ytd-item-section-renderer.style-scope
 www.youtube.com##.ytd-app.style-scope.with-chipbar
 ! Remove sponsor and thanks buttons
 www.youtube.com##yt-button-view-model.ytd-menu-renderer:nth-of-type(2)
