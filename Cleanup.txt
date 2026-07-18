@@ -6,7 +6,7 @@
 
 ! OptiFine
 ! Nuke download links, mirror is ad-free
-optifine.net##[href^="http://adfoc.us/serve/sitelinks/"]
+optifine.net##.colDownload
 
 ! YouTube
 ! Removes "For Members" videos
