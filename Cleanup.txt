@@ -1,13 +1,27 @@
-! Title: 🗑️ Cleanup
+! Title: 🗑️ Cleanup-ify
 ! Version: 1.0.0
 ! Expires: 1 day
-! Description: Removes crap from various websites. Most likely not well made at all.
+! Description: Opinionated. Removes "unnecessary"/annoying stuff from various websites. Most likely not well made at all.
 ! Homepage: https://github.com/Radk6/Rads-uBlock-Filters
+
+! Modrinth
+! Remove Modrinth+
+modrinth.com##div.sm\:items-start.gap-3.items-center.flex-col.flex:nth-of-type(2) > a.hover\:underline.w-fit:nth-of-type(1)
+modrinth.com##div.text-base.transparent.btn-wrapper > [href="/app"]
+modrinth.com##.color-accent-contrast.btn-transparent.btn-purple.btn
 
 ! OptiFine
 ! Nuke download links, mirror is ad-free
 optifine.net##.colDownload
 
+! Reddit
+! Remove left sidebar account upsell
+www.reddit.com###left-sidebar-container > faceplate-tracker
+
 ! YouTube
-! Removes "For Members" videos
+! Remove "For Members" videos
 www.youtube.com##:is(ytd-rich-item-renderer,yt-lockup-view-model):has(.ytBadgeShapeMembership,[aria-label="Members only"],[d^="M6 .5a5.5 5.5"])
+! Remove the chipbar (homepage + related videos)
+www.youtube.com###header > .ytd-rich-grid-renderer.style-scope
+www.youtube.com###header > .ytd-item-section-renderer.style-scope
+www.youtube.com##.ytd-app.style-scope.with-chipbar
