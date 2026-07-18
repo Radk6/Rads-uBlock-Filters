@@ -22,8 +22,8 @@ www.reddit.com###left-sidebar-container > faceplate-tracker
 ! Remove "For Members" videos
 www.youtube.com##:is(ytd-rich-item-renderer,yt-lockup-view-model):has(.ytBadgeShapeMembership,[aria-label="Members only"],[d^="M6 .5a5.5 5.5"])
 ! Remove the chipbar (homepage + related videos)
-www.youtube.com###header > .ytd-rich-grid-renderer.style-scope
-www.youtube.com##.ytd-app.style-scope.with-chipbar
+www.youtube.com###voice-search-button, ytd-feed-filter-chip-bar-renderer
+www.youtube.com###frosted-glass:style( height: 56px !important)
 ! Remove sponsor and thanks buttons
 www.youtube.com##yt-button-view-model.ytd-menu-renderer:nth-of-type(2)
 www.youtube.com###sponsor-button
