@@ -1,0 +1,13 @@
+! Title: 🗑️ Cleanup
+! Version: 1.0.0
+! Expires: 1 day
+! Description: Removes crap from various websites. Most likely not well made at all.
+! Homepage: https://github.com/Radk6/Rads-uBlock-Filters
+
+! OptiFine
+! Nuke download links, mirror is ad-free
+optifine.net##[href^="http://adfoc.us/serve/sitelinks/"]
+
+! YouTube
+! Removes "For Members" videos
+www.youtube.com##:is(ytd-rich-item-renderer,yt-lockup-view-model):has(.ytBadgeShapeMembership,[aria-label="Members only"],[d^="M6 .5a5.5 5.5"])
