@@ -4,6 +4,22 @@
 ! Description: Opinionated. Removes "unnecessary"/annoying stuff from various websites. Most likely not well made at all.
 ! Homepage: https://github.com/Radk6/Rads-uBlock-Filters
 
+! Media Expert
+! Last Seen
+www.mediaexpert.pl##.is-lastSeen.container
+! Promo flyout
+www.mediaexpert.pl##.right_float_element
+! Sidebar ads
+www.mediaexpert.pl##.shop-ears
+! Help Bubble
+www.mediaexpert.pl###help-bubble
+www.mediaexpert.pl###expert-help-bubble
+! List ads
+www.mediaexpert.pl##.dynamic-zone-body > .adafir-html
+www.mediaexpert.pl##.adafir-banner
+! Promo bar
+www.mediaexpert.pl##.is-sticky.promobar
+
 ! Modrinth
 ! Remove Modrinth+
 modrinth.com##div.sm\:items-start.gap-3.items-center.flex-col.flex:nth-of-type(2) > a.hover\:underline.w-fit:nth-of-type(1)
